@@ -1,0 +1,22 @@
+{
+    "name": "challlenge_18_social_network",
+    "version": "1.0.0",
+    "description": "This a Social Network API with no front end.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1",
+        "mongoose": "^6.4.3",
+        "dotenv": "^8.2.0"
+    }
+}
