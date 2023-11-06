@@ -1,20 +1,17 @@
 const { Schema, Types, model } = require('mongoose');
 
-// The reaction schema is all that is required for reactions. It is included in the Thought model since this model is where it will be utilized.
-const reactionSchema = new Schema({
-    reactionId: {
-        type: Schema.Types.ObjectId,
-        default: () => new Types.ObjectId(),
-    },
-    reactionBody: {
-        type: String,
-        required: true,
-        maxLength: 280,
-    },
+const thoughtSchema = new Schema({
     username: {
         type: String,
         required: true,
     },
+    thoughtText: {
+        type: String,
+        required: true,
+        minLength: 1,
+        maxLength: 280,
+    },
+    reactions: [reactionSchema],
     createdAt: {
         type: Date,
         default: Date.now,
@@ -32,18 +29,21 @@ const reactionSchema = new Schema({
     }
 );
 
-const thoughtSchema = new Schema({
+// The reaction schema is all that is required for reactions. It is included in the Thought model since this model is where it will be utilized.
+const reactionSchema = new Schema({
+    reactionId: {
+        type: Schema.Types.ObjectId,
+        default: () => new Types.ObjectId(),
+    },
+    reactionBody: {
+        type: String,
+        required: true,
+        maxLength: 280,
+    },
     username: {
         type: String,
         required: true,
     },
-    thoughtText: {
-        type: String,
-        required: true,
-        minLength: 1,
-        maxLength: 280,
-    },
-    reactions: [reactionSchema],
     createdAt: {
         type: Date,
         default: Date.now,
