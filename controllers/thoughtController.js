@@ -31,7 +31,7 @@ const thoughtController = {
             .catch(err => res.status(400).json(err));
     },
 
-    // This gets a single user thought by its id (_id).
+    // This gets a single user thought by id (_id).
     getThoughtById({ params }, res) {
         Thought.findOne({ _id: params.id })
             .then(dbThoughtData => {
@@ -47,7 +47,7 @@ const thoughtController = {
             });
     },
 
-    // This updates (PUTs) a user's thought by its id (_id).
+    // This updates (PUTs) a user's thought by id (_id).
     updateThought({ params, body }, res) {
         Thought.findOneAndUpdate({ _id: params.id }, body, { new: true, runValidators: true })
             .then(dbThoughtData => {
@@ -63,7 +63,7 @@ const thoughtController = {
             });
     },
 
-    // This deletes a user's thought by its id (_id).
+    // This deletes a user's thought by id (_id).
     deleteThought({ params }, res) {
         Thought.findOneAndDelete({ _id: params.id })
             .then(dbThoughtData => {
