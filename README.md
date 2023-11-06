@@ -7,7 +7,8 @@ When the API is opened in Insomnia for the API GET routes for users and thoughts
 
 This is a video walkthrough of the application:
 
-[SocialApiDemo.webm](https://github.com/sctwomey/automatic-fiesta/assets/9093766/a282929b-f712-45a0-87f8-2df0ad63a208)
+
+[DemoSocialAPI.webm](https://github.com/sctwomey/automatic-fiesta/assets/9093766/6cad9d37-acab-4295-a893-efdd400db543)
 
 
 A mock-up of the Social Network API is shown here:
