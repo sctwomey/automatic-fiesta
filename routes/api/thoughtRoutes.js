@@ -9,10 +9,10 @@ const {
     removeReaction
 } = require('../../controllers/thoughtController');
 
-// This is for the 'api/thoughts' route.
+// This is for the 'api/thoughts' routes.
 router.route('/').get(getAllThought).post(createThought);
 
-// This is for the 'api/thoughts/:id' route.
+// This is for the 'api/thoughts/:id' routes.
 router.route('/:id').get(getThoughtById).put(updateThought).delete(deleteThought);
 
 // This is for the 'api/thoughts/:thoughtId/reactions' route.
