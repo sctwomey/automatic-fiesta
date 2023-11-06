@@ -5,7 +5,7 @@ This challenge requires the development of a social network API that uses a NoSQ
 
 When the API is opened in Insomnia for the API GET routes for users and thoughts, the data for each of these routes will be displayed in a formatted JSON. The API POST, PUT, and DELETE routes are tested in Insomnia, and are successfully shown to create, update, and delete users and thoughts in the MongoDB database. The API POST and DELETE routes for friends and reactions are shown to successfully create and delete reactions to thoughts and add or remove friends to and from a user's friend list.
 
-A mock-up of the API is shown here:
+A mock-up of the Social Network API is shown here:
 
 <img src="" alt="NoSQL Database File Image 01" title="NoSQL Database File Screenshot 01">
 
