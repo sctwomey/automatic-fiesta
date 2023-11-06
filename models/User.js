@@ -39,7 +39,7 @@ const userSchema = new Schema({
     }
 );
 
-// This creates a virtual property for a friends count.
+// This is for the creation of a virtual property for a friends count.
 userSchema
     .virtual('friendCount')
     .get(function () {
