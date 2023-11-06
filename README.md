@@ -1,21 +1,31 @@
 # Challenge 12: Employee Tracker 
 
 ## Description
-This challenge requires the development of an employee tracker database that will be a command-line application that accepts user input. When a user starts the application, the user will be presented with a list of the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role. When a user chooses to view all departments, roles, or employees, the user is presented with a formatted table of the information chosen by the use to view. The table should show all relevant information to the user.
+This challenge requires the development of a social network API that uses a NoSQL database (MondoDB with Mongoose). This is so that the website can handle a large amount of unstructured data. The application will be a command line/terminal application that when invoked will start the server, syncing the Mongoose models with the MondoDB database. There are no seed file required for this application.
 
-When the user wants to add a department, the user will be prompted to enter the name of the department and that department is added to the database. When the user chooses to add a role, the user will be prompted to enter the name, salary, and department for the role and that role is added to the database. If the user chooses to add a new employee, the user will be prompted to enter the employee's first name, last name, role, and manager, and that employee is added to the database. When the user wants to update an employee role, the user will be prompted to select an employee to update and their new role. This information will then be updated in the database.
+When the API is opened in Insomnia for the API GET routes for users and thoughts, the data for each of these routes will be displayed in a formatted JSON. The API POST, PUT, and DELETE routes are tested in Insomnia, and are successfully shown to create, update, and delete users and thoughts in the MongoDB database. The API POST and DELETE routes for friends and reactions are shown to successfully create and delete reactions to thoughts and add or remove friends to and from a user's friend list.
 
-A mock-up of the database design is shown here:
+A mock-up of the API is shown here:
 
-<img src="images/12-sql-homework-demo-01.png" alt="SQL Database File Image" title="SQL Database File Screenshot">
+<img src="" alt="NoSQL Database File Image 01" title="NoSQL Database File Screenshot 01">
+
+<img src="" alt="NoSQL Database File Image 01" title="NoSQL Database File Screenshot 02">
+
+<img src="" alt="NoSQL Database File Image 01" title="NoSQL Database File Screenshot 03">
+
+<img src="" alt="NoSQL Database File Image 01" title="NoSQL Database File Screenshot 04">
 
 ## Installation
 
-The Employee Tracker Application is a Console/Terminal application.
+The Social Network API Application is a Console/Terminal application.
+
+Use <code>npm install</code> in the terminal to download dependencies required to run the application.
+
+Then, use <code>npm start</code> in the terminal to run and test the application.
 
 ## Usage
 
-The information for the Employee Tracker application can be found in the respository.
+The information for the Social Network API application can be found in the respository.
 
 ## Credits
 
