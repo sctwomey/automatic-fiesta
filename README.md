@@ -16,10 +16,6 @@ A mock-up of the Social Network API is shown here:
 
 <img src="images/18-nosql-homework-demo-02.gif" alt="NoSQL Database File Image 01" title="NoSQL Database File Screenshot 02">
 
-<img src="images/18-nosql-homework-demo-03.gif" alt="NoSQL Database File Image 01" title="NoSQL Database File Screenshot 03">
-
-<img src="images/18-nosql-homework-demo-04.gif" alt="NoSQL Database File Image 01" title="NoSQL Database File Screenshot 04">
-
 ## Installation
 
 The Social Network API Application is a Console/Terminal application.
