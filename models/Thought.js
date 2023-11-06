@@ -61,7 +61,7 @@ const thoughtSchema = new Schema({
     }
 );
 
-// This creates a virtual property that is used for the reaction count.
+// This is for the creation of a virtual property that is used for the reaction count.
 thoughtSchema
     .virtual('reactionCount')
     .get(function () {
