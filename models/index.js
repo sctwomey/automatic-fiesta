@@ -1,4 +1,4 @@
-// This file will be the entry point for all of the models.
+// These requires are for all of the models.
 const User = require('./User');
 const Thought = require('./Thought');
 
