@@ -1,4 +1,4 @@
-# Challenge 12: Employee Tracker 
+# Challenge 18: Social Network API
 
 ## Description
 This challenge requires the development of a social network API that uses a NoSQL database (MondoDB with Mongoose). This is so that the website can handle a large amount of unstructured data. The application will be a command line/terminal application that when invoked will start the server, syncing the Mongoose models with the MondoDB database. There are no seed file required for this application.
